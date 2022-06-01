@@ -1,0 +1,178 @@
+<html>
+<head>
+<style>
+.cardsBox {
+  width: 300px;
+  height: 400px;
+  position: relative;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 10px 0px,
+    rgba(0, 0, 0, 0.5) 0px 2px 25px 0px;
+}
+.cards {
+  position: absolute;
+  width: 95%;
+  height: 95%;
+  background: rgb(35, 35, 35);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: #ffffff;
+  overflow: hidden;
+  padding: 20px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.5) 0px 18px 36px -18px inset;
+}
+.cards h2, spans {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  font-weight: 800;
+  pointer-events: none;
+  opacity: .8;
+  color: #9d0000 ;
+}
+
+spans {
+  top: 75%;
+}
+
+.cards .contents h3 {
+  font-size: 3rem;
+  padding-bottom: 10px;
+}
+.cards .contents p {
+  font-size: 1.6rem;
+  line-height: 25px;
+}
+.cards .contents {
+  transform: translateY(100%);
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.cards:hover .contents {
+  transform: translateY(0);
+  opacity: 6;
+  background-color: rgb(35, 35, 35);
+}
+
+.cardsBox::before {
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 150%;
+  background: #40E0D0;
+background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);
+background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);
+  animation: glowing01 5s linear infinite;
+  transform-origin: center;
+  animation: glowing 5s linear infinite;
+}
+
+@keyframes glowing {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+</style>
+</head>
+<body>
+    <div class="row" style="justify-content: space-evenly;">
+
+    <div class="cardsBox" style="margin-top: 10px;" >
+        <div class="cards">
+          <h2 >Promoting Sustainable Fashion</h2>
+          
+          <div class="contents">
+            <p>Creation of a sustainable fashion brand that will use only sustainable fabric like organic cotton,linen etc.</p>
+                <p>Patch-work designs to use maximum fabric. Accessories like fluffs, handkerchiefs etc.</p> 
+              <p>  made with remaining fabrics to move towards zero wastage model Unusable fabric to be utilized to make paper</p>
+          </div>
+        </div>
+        </div>
+      
+     
+      <div class="cardsBox" style="margin-top: 10px;" >
+        <div class="cards">
+          <h2>Metaverch Fashion & Merch Drop</h2>
+          
+          <div class="contents">
+            <p>Rendering of Fashion Baba NFT into 3D so as to integrate the Outfits & character into Metaverse.</p>
+            <p>Store in metaverse to purchase 3D Fashion Baba outfits in metaverse & also get their physical form delivered to your address.</p> 
+          <p> Free merchandise drop to our holders</p>
+          </div>
+        </div>
+        </div>
+       
+        
+     
+     
+      <div class="cardsBox" style="margin-top: 10px;">
+        <div class="cards">
+          <h2>Art of styling-Draping</h2>
+          
+          <div class="contents">
+            <p>Imagine having an App which can help you to style your existing outfits in different ways?</p>
+            <p>Blogs related to Sustainable fashion, draping, art of styling</p> 
+          <p> Videos & podcasts related to Sustainable fashion, draping, art of styling</p>
+          </div>
+        </div>
+        </div>
+      
+      
+      <div class="cardsBox" style="margin-top: 10px;">
+        <div class="cards">
+          <h2>Design Your Dream Outfit</h2>
+          
+          <div class="contents">
+            <p>Did you want to get a designer outfit made specially for you? Did you have a dream-outfit idea in your mind for yourself? If yes, then Fashion Baba will deliver that idea to your doorstep in physical form.</p>
+            <p>Your idea, we suggest & plan, you choose, we deliver!!</p> 
+        
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="cardsBox" style="margin-top: 10px;" >
+        <div class="cards">
+          <h2>Public Fashion House</h2>
+          
+          <div class="contents">
+            <p>Fashion house for the public & by the public.</p>
+            <p>Verified holders would get the opportunity to be full time & part-time fashion-designers for BABA FASHION HOUSE</p> 
+          <p> Artists collaborate with Fashion Baba team to make designs for in-house fashion brand</p>
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="cardsBox" style="margin-top: 10px;" >
+        <div class="cards">
+          <h2>Design to Earn Platform</h2>
+          
+          <div class="contents">
+            <p>To provide a Fashion incubator/launchpad for aspiring artists in the space</p>
+            <p>Platform to pitch your design ideas, get feedback & get your designs made under Fashion Baba. (Designed by YOU, created by FASHION BABA</p> 
+        
+          </div>
+        </div>
+        
+      </div>
+      </div>
+      
+</body>
+</html>

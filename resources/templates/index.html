@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+{% block body_block %}
+{% load static %}
+<head>
+    <link rel="stylesheet" href="static/css/rarity/rarity.css">
+</head>
+<div class="totalrarity">
+<div class="navbar1 navbar1-fixed-top1">
+    <button><span class="hidden2">Common</span></button><br>
+    <button><span>Uncommon</span></button><br>
+    <button><span>Rare</span></button><br> 
+    <button><span>Epic</span></button><br>
+    <button><span>Godly</span></button><br> 
+</div>
+
+<div class="container2">
+    <div class="row">
+        <div class="content2 col-lg-4">
+            <span class="heading2">Common</span></a>
+            <img class="image1" src="static/images/genesis11.png">
+            <h2 style="color: white;">Trend Setter</h2>
+        </div>          
+        <div class="content2 col-lg-4">
+            <span class="heading2">Uncommon</span>
+            <img class="image1" src="static/images/genesis44.PNG">
+            <h2 style="color: white;">Trend Breaker</h2>
+        </div>      
+        <div class="content2 col-lg-4">
+            <span class="heading2">Rare</span>
+            <img class="image1" src="static/images/genesis22.png">
+            <h2 style="color: white;">Fashion Influencer</h2>
+        </div>
+        <div class="content2 col-lg-4">
+            <span class="heading2">Epic</span>
+            <img class="image1" src="static/images/genesis55.png">
+            <h2 style="color: white;">Fashion Creator</h2>
+        </div> 
+        <div class="content2 col-lg-4">
+            <span class="heading2">Godly</span>
+            <img class="image1" src="static/images/genesis55.png">
+            <h2 style="color: white;">Fashion Creator</h2>
+        </div>   
+    </div>
+</div>
+</div>
+<script src="static/js/rarity.js"></script>
+ {% endblock %}
