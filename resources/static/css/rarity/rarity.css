@@ -63,7 +63,7 @@ span:hover, span:active  {
     margin-top: -28%;
     margin-left: 50%;
     position: relative;
-    z-index: 99;
+    z-index: -1;
     position: absolute;
 }
 .content2 h2{
